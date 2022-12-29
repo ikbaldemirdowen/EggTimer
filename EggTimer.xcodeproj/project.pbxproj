@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1845704295D5D6200E4DFCA /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = A18456FD295D5D6100E4DFCA /* A.wav */; };
+		A1845705295D5D6200E4DFCA /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = A18456FE295D5D6100E4DFCA /* C.wav */; };
+		A1845706295D5D6200E4DFCA /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = A18456FF295D5D6100E4DFCA /* B.wav */; };
+		A1845707295D5D6200E4DFCA /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1845700295D5D6100E4DFCA /* F.wav */; };
+		A1845708295D5D6200E4DFCA /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1845701295D5D6100E4DFCA /* G.wav */; };
+		A1845709295D5D6200E4DFCA /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1845702295D5D6100E4DFCA /* E.wav */; };
+		A184570A295D5D6200E4DFCA /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1845703295D5D6100E4DFCA /* D.wav */; };
 		AD5C106222D34E35001E14A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD5C106122D34E35001E14A5 /* README.md */; };
 		AD5C106622D36212001E14A5 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD5C106522D36212001E14A5 /* alarm_sound.mp3 */; };
 		ADF037EE22D332A800A69E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF037ED22D332A800A69E9A /* AppDelegate.swift */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A18456FD295D5D6100E4DFCA /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		A18456FE295D5D6100E4DFCA /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		A18456FF295D5D6100E4DFCA /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		A1845700295D5D6100E4DFCA /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		A1845701295D5D6100E4DFCA /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		A1845702295D5D6100E4DFCA /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		A1845703295D5D6100E4DFCA /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		AD5C106122D34E35001E14A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD5C106522D36212001E14A5 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		ADF037EA22D332A800A69E9A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +55,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A18456FC295D5D6100E4DFCA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A18456FD295D5D6100E4DFCA /* A.wav */,
+				A18456FE295D5D6100E4DFCA /* C.wav */,
+				A18456FF295D5D6100E4DFCA /* B.wav */,
+				A1845700295D5D6100E4DFCA /* F.wav */,
+				A1845701295D5D6100E4DFCA /* G.wav */,
+				A1845702295D5D6100E4DFCA /* E.wav */,
+				A1845703295D5D6100E4DFCA /* D.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		ADF037E122D332A800A69E9A = {
 			isa = PBXGroup;
 			children = (
+				A18456FC295D5D6100E4DFCA /* Sounds */,
 				AD5C106122D34E35001E14A5 /* README.md */,
 				ADF037EC22D332A800A69E9A /* EggTimer */,
 				ADF037EB22D332A800A69E9A /* Products */,
@@ -131,11 +160,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1845709295D5D6200E4DFCA /* E.wav in Resources */,
+				A1845704295D5D6200E4DFCA /* A.wav in Resources */,
 				ADF037FA22D332AD00A69E9A /* LaunchScreen.storyboard in Resources */,
 				AD5C106622D36212001E14A5 /* alarm_sound.mp3 in Resources */,
+				A1845707295D5D6200E4DFCA /* F.wav in Resources */,
+				A1845706295D5D6200E4DFCA /* B.wav in Resources */,
 				ADF037F722D332AD00A69E9A /* Assets.xcassets in Resources */,
+				A1845708295D5D6200E4DFCA /* G.wav in Resources */,
 				AD5C106222D34E35001E14A5 /* README.md in Resources */,
+				A184570A295D5D6200E4DFCA /* D.wav in Resources */,
 				ADF037F522D332A800A69E9A /* Main.storyboard in Resources */,
+				A1845705295D5D6200E4DFCA /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
