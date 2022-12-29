@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBAction func hardnessSelected(_ sender: UIButton)
     {
         self.label.text = "How do you like your eggs?"
+        player?.stop()
         secondsPassed = 0.0
         totalTime = 0.0
         timer.invalidate()
@@ -48,7 +49,7 @@ class ViewController: UIViewController {
             }
     }
     func playSound() {
-        guard let url = Bundle.main.url(forResource: "C", withExtension: "wav") else { return }
+        guard let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3") else { return }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
